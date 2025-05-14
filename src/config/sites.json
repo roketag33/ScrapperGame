@@ -1,0 +1,187 @@
+{
+  "sites": [
+    {
+      "id": "ldlc",
+      "nom": "LDLC",
+      "url": "https://www.ldlc.com",
+      "logo": "https://www.ldlc.com/v4/img/logos/logo_ldlc.png",
+      "selectors": {
+        "produit": ".pdt-item",
+        "nom": ".title-3",
+        "prix": ".price",
+        "lien": ".title-3 a",
+        "image": "img.product-image",
+        "disponibilite": ".stock-web"
+      },
+      "categories": {
+        "carte-graphique": "/informatique/carte-graphique/c4150/",
+        "processeur": "/informatique/pieces-informatique/processeur/c4300/",
+        "carte-mere": "/informatique/pieces-informatique/carte-mere/c4293/",
+        "memoire-ram": "/informatique/pieces-informatique/memoire-pc/c4614/",
+        "boitier": "/informatique/pieces-informatique/boitier-pc/c4662/",
+        "alimentation": "/informatique/pieces-informatique/alimentation-pc/c4289/",
+        "ssd": "/informatique/pieces-informatique/disque-ssd/c4698/",
+        "disque-dur": "/informatique/pieces-informatique/disque-dur-interne/c4696/",
+        "ventilateur": "/informatique/pieces-informatique/ventilateur-radiateur/c4301/"
+      },
+      "recherche": "/recherche/{motCle}/",
+      "delai_scraping": 1000
+    },
+    {
+      "id": "topachat",
+      "nom": "TopAchat",
+      "url": "https://www.topachat.com",
+      "logo": "https://www.topachat.com/assets/img/logo.svg",
+      "selectors": {
+        "produit": ".grille-produit",
+        "nom": "h3",
+        "prix": ".price",
+        "lien": "h3 a",
+        "image": "img.lazy",
+        "disponibilite": ".stock"
+      },
+      "categories": {
+        "carte-graphique": "/pages/produits_cat_est_micro_puis_rubrique_est_wgfx_pcie.html",
+        "processeur": "/pages/produits_cat_est_micro_puis_rubrique_est_w_proc_puis_sousliste.html",
+        "carte-mere": "/pages/produits_cat_est_micro_puis_rubrique_est_w_cm.html",
+        "memoire-ram": "/pages/produits_cat_est_micro_puis_rubrique_est_w_mempc.html",
+        "boitier": "/pages/produits_cat_est_micro_puis_rubrique_est_w_boitiers.html",
+        "alimentation": "/pages/produits_cat_est_micro_puis_rubrique_est_w_alim.html",
+        "ssd": "/pages/produits_cat_est_micro_puis_rubrique_est_w_ssd.html",
+        "disque-dur": "/pages/produits_cat_est_micro_puis_rubrique_est_w_dd_int.html",
+        "ventilateur": "/pages/produits_cat_est_micro_puis_rubrique_est_w_vent.html"
+      },
+      "recherche": "/pages/recherche.php?q={motCle}",
+      "delai_scraping": 1200
+    },
+    {
+      "id": "materiel",
+      "nom": "Materiel.net",
+      "url": "https://www.materiel.net",
+      "logo": "https://www.materiel.net/assets/front/logo.svg",
+      "selectors": {
+        "produit": ".c-product-card",
+        "nom": ".c-product-card__title",
+        "prix": ".o-price__value",
+        "lien": ".c-product-card__title a",
+        "image": ".c-product-card__img img",
+        "disponibilite": ".c-product-availability"
+      },
+      "categories": {
+        "carte-graphique": "/carte-graphique/l426.html",
+        "processeur": "/processeur/l398.html",
+        "carte-mere": "/carte-mere/l395.html",
+        "memoire-ram": "/memoire-pc/l13.html",
+        "boitier": "/boitier-pc/l80.html",
+        "alimentation": "/alimentation-pc/l12.html",
+        "ssd": "/ssd/l1339.html",
+        "disque-dur": "/disque-dur-interne/l14.html",
+        "ventilateur": "/ventilateur-pc/l110.html"
+      },
+      "recherche": "/search/{motCle}/",
+      "delai_scraping": 1500
+    },
+    {
+      "id": "cybertek",
+      "nom": "Cybertek",
+      "url": "https://www.cybertek.fr",
+      "logo": "https://www.cybertek.fr/skin/frontend/cybertek/default/images/logo.gif",
+      "selectors": {
+        "produit": ".product-item",
+        "nom": ".product-name",
+        "prix": ".price",
+        "lien": ".product-name a",
+        "image": ".product-image img",
+        "disponibilite": ".stock-info"
+      },
+      "categories": {
+        "carte-graphique": "/carte-graphique-70.html",
+        "processeur": "/processeur-69.html",
+        "carte-mere": "/carte-mere-68.html",
+        "memoire-ram": "/memoire-vive-71.html",
+        "boitier": "/boitier-72.html",
+        "alimentation": "/alimentation-73.html",
+        "ssd": "/disque-ssd-543.html",
+        "disque-dur": "/disque-dur-interne-75.html",
+        "ventilateur": "/ventilateur-cpu-77.html"
+      },
+      "recherche": "/recherche?q={motCle}",
+      "delai_scraping": 1300
+    },
+    {
+      "id": "rue-du-commerce",
+      "nom": "Rue du Commerce",
+      "url": "https://www.rueducommerce.fr",
+      "logo": "https://www.rueducommerce.fr/static/drupal-front/themes/custom/rdc2020/logo.svg",
+      "selectors": {
+        "produit": ".item-product",
+        "nom": ".item-title",
+        "prix": ".price-box",
+        "lien": ".item-title a",
+        "image": ".item-image img",
+        "disponibilite": ".stock-label"
+      },
+      "categories": {
+        "carte-graphique": "/rayon/composants-16/cartes-graphiques-1361",
+        "processeur": "/rayon/composants-16/processeurs-1670",
+        "carte-mere": "/rayon/composants-16/cartes-meres-1667",
+        "memoire-ram": "/rayon/composants-16/memoires-1673",
+        "boitier": "/rayon/composants-16/boitiers-1363",
+        "alimentation": "/rayon/composants-16/alimentations-1362",
+        "ssd": "/rayon/composants-16/ssd-disques-durs-ssd-1676",
+        "disque-dur": "/rayon/composants-16/disques-durs-internes-1368",
+        "ventilateur": "/rayon/composants-16/ventilateurs-pour-boitier-1366"
+      },
+      "recherche": "/recherche/{motCle}",
+      "delai_scraping": 1800
+    }
+  ],
+  "categories": [
+    {
+      "id": "carte-graphique",
+      "nom": "Cartes graphiques",
+      "description": "Composant permettant d'afficher les images sur l'écran"
+    },
+    {
+      "id": "processeur",
+      "nom": "Processeurs",
+      "description": "Unité centrale de traitement (CPU) qui exécute les instructions"
+    },
+    {
+      "id": "carte-mere",
+      "nom": "Cartes mères",
+      "description": "Circuit imprimé principal connectant tous les composants de l'ordinateur"
+    },
+    {
+      "id": "memoire-ram",
+      "nom": "Mémoire RAM",
+      "description": "Mémoire à accès aléatoire pour le stockage temporaire des données"
+    },
+    {
+      "id": "boitier",
+      "nom": "Boîtiers PC",
+      "description": "Châssis abritant les composants de l'ordinateur"
+    },
+    {
+      "id": "alimentation",
+      "nom": "Alimentations",
+      "description": "Composant fournissant l'énergie électrique aux autres composants"
+    },
+    {
+      "id": "ssd",
+      "nom": "SSD",
+      "description": "Disque de stockage à mémoire flash rapide"
+    },
+    {
+      "id": "disque-dur",
+      "nom": "Disques durs",
+      "description": "Périphérique de stockage magnétique à grande capacité"
+    },
+    {
+      "id": "ventilateur",
+      "nom": "Ventilateurs/Refroidissement",
+      "description": "Dispositifs de refroidissement pour maintenir les composants à température optimale"
+    }
+  ],
+  "intervalRafraichissement": 86400000
+} 

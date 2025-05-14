@@ -1,0 +1,204 @@
+{
+  "marques": [
+    {
+      "id": "amd",
+      "nom": "AMD",
+      "categories": ["carte-graphique", "processeur"]
+    },
+    {
+      "id": "nvidia",
+      "nom": "Nvidia",
+      "categories": ["carte-graphique"]
+    },
+    {
+      "id": "intel",
+      "nom": "Intel",
+      "categories": ["processeur", "carte-mere"]
+    },
+    {
+      "id": "asus",
+      "nom": "Asus",
+      "categories": ["carte-graphique", "carte-mere", "ecran", "pc-portable"]
+    },
+    {
+      "id": "msi",
+      "nom": "MSI",
+      "categories": ["carte-graphique", "carte-mere", "ecran", "pc-portable"]
+    },
+    {
+      "id": "gigabyte",
+      "nom": "Gigabyte",
+      "categories": ["carte-graphique", "carte-mere"]
+    },
+    {
+      "id": "asrock",
+      "nom": "ASRock",
+      "categories": ["carte-mere", "carte-graphique"]
+    },
+    {
+      "id": "evga",
+      "nom": "EVGA",
+      "categories": ["carte-graphique", "alimentation"]
+    },
+    {
+      "id": "sapphire",
+      "nom": "Sapphire",
+      "categories": ["carte-graphique"]
+    },
+    {
+      "id": "corsair",
+      "nom": "Corsair",
+      "categories": ["memoire-ram", "boitier", "alimentation", "ventilateur", "watercooling"]
+    },
+    {
+      "id": "g-skill",
+      "nom": "G.Skill",
+      "categories": ["memoire-ram"]
+    },
+    {
+      "id": "kingston",
+      "nom": "Kingston",
+      "categories": ["memoire-ram", "ssd"]
+    },
+    {
+      "id": "crucial",
+      "nom": "Crucial",
+      "categories": ["memoire-ram", "ssd"]
+    },
+    {
+      "id": "samsung",
+      "nom": "Samsung",
+      "categories": ["ssd", "ecran", "memoire-ram"]
+    },
+    {
+      "id": "western-digital",
+      "nom": "Western Digital",
+      "categories": ["ssd", "disque-dur"]
+    },
+    {
+      "id": "seagate",
+      "nom": "Seagate",
+      "categories": ["disque-dur", "ssd"]
+    },
+    {
+      "id": "cooler-master",
+      "nom": "Cooler Master",
+      "categories": ["boitier", "ventilateur", "alimentation", "watercooling"]
+    },
+    {
+      "id": "nzxt",
+      "nom": "NZXT",
+      "categories": ["boitier", "ventilateur", "watercooling"]
+    },
+    {
+      "id": "be-quiet",
+      "nom": "be quiet!",
+      "categories": ["alimentation", "ventilateur", "boitier"]
+    },
+    {
+      "id": "thermaltake",
+      "nom": "Thermaltake",
+      "categories": ["boitier", "alimentation", "ventilateur", "watercooling"]
+    },
+    {
+      "id": "deepcool",
+      "nom": "Deepcool",
+      "categories": ["ventilateur", "watercooling"]
+    },
+    {
+      "id": "noctua",
+      "nom": "Noctua",
+      "categories": ["ventilateur"]
+    },
+    {
+      "id": "zotac",
+      "nom": "Zotac",
+      "categories": ["carte-graphique"]
+    },
+    {
+      "id": "pny",
+      "nom": "PNY",
+      "categories": ["carte-graphique", "ssd"]
+    },
+    {
+      "id": "xfx",
+      "nom": "XFX",
+      "categories": ["carte-graphique"]
+    },
+    {
+      "id": "powercolor",
+      "nom": "PowerColor",
+      "categories": ["carte-graphique"]
+    },
+    {
+      "id": "acer",
+      "nom": "Acer",
+      "categories": ["ecran", "pc-portable"]
+    },
+    {
+      "id": "lg",
+      "nom": "LG",
+      "categories": ["ecran"]
+    },
+    {
+      "id": "dell",
+      "nom": "Dell",
+      "categories": ["ecran", "pc-portable"]
+    },
+    {
+      "id": "benq",
+      "nom": "BenQ",
+      "categories": ["ecran"]
+    },
+    {
+      "id": "aoc",
+      "nom": "AOC",
+      "categories": ["ecran"]
+    },
+    {
+      "id": "hp",
+      "nom": "HP",
+      "categories": ["pc-portable", "ecran"]
+    },
+    {
+      "id": "lenovo",
+      "nom": "Lenovo",
+      "categories": ["pc-portable"]
+    },
+    {
+      "id": "razer",
+      "nom": "Razer",
+      "categories": ["pc-portable", "peripherique"]
+    },
+    {
+      "id": "logitech",
+      "nom": "Logitech",
+      "categories": ["peripherique", "audio"]
+    },
+    {
+      "id": "steelseries",
+      "nom": "SteelSeries",
+      "categories": ["peripherique", "audio"]
+    },
+    {
+      "id": "hyperx",
+      "nom": "HyperX",
+      "categories": ["peripherique", "audio", "memoire-ram"]
+    },
+    {
+      "id": "creative",
+      "nom": "Creative",
+      "categories": ["audio"]
+    },
+    {
+      "id": "seasonic",
+      "nom": "Seasonic",
+      "categories": ["alimentation"]
+    },
+    {
+      "id": "antec",
+      "nom": "Antec",
+      "categories": ["boitier", "alimentation"]
+    }
+  ]
+} 
